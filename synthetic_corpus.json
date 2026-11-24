@@ -1,0 +1,117 @@
+{
+  "provenance": "16 synthetic Python fixtures authored for this ΠRIME prototype; no proprietary source code. Teacher acceptance of this constructed dataset is pending.",
+  "samples": [
+    {
+      "id": "P01",
+      "kind": "python",
+      "label": "output",
+      "source": "print(\"Hello, world!\")\n",
+      "expected": "Hello, world!\n"
+    },
+    {
+      "id": "P02",
+      "kind": "python",
+      "label": "condition",
+      "source": "score = 72\nif score >= 50:\n    print(\"Passed\")\nelse:\n    print(\"Try again\")\n",
+      "expected": "Passed\n"
+    },
+    {
+      "id": "P03",
+      "kind": "python",
+      "label": "loop",
+      "source": "total = 0\nfor n in range(5):\n    total += n\nprint(total)\n",
+      "expected": "10\n"
+    },
+    {
+      "id": "P04",
+      "kind": "python",
+      "label": "function",
+      "source": "def square(x):\n    return x * x\n\nprint(square(7))\n",
+      "expected": "49\n"
+    },
+    {
+      "id": "P05",
+      "kind": "python",
+      "label": "strings and comments",
+      "source": "# if print should stay inside this comment\ntext = \"if print \\\"quoted\\\"\"\nprint(text)\n",
+      "expected": "if print \"quoted\"\n"
+    },
+    {
+      "id": "P06",
+      "kind": "python",
+      "label": "while",
+      "source": "n = 3\nwhile n > 0:\n    print(n)\n    n -= 1\n",
+      "expected": "3\n2\n1\n"
+    },
+    {
+      "id": "P07",
+      "kind": "python",
+      "label": "collections",
+      "source": "items = [2, 4, 6]\nprint(sum(items))\n",
+      "expected": "12\n"
+    },
+    {
+      "id": "P08",
+      "kind": "python",
+      "label": "unicode and brackets",
+      "source": "नाम = \"ΠRIME ⟦x⟧\"\nprint(नाम)\n",
+      "expected": "ΠRIME ⟦x⟧\n"
+    },
+    {
+      "id": "P09",
+      "kind": "python",
+      "label": "spacing and CRLF",
+      "source": "value  =  3\r\nprint(value) # comment\r\n",
+      "expected": "3\n"
+    },
+    {
+      "id": "P10",
+      "kind": "python",
+      "label": "multiline literal",
+      "source": "note = \"\"\"line one\nline two\"\"\"\nprint(note)\n",
+      "expected": "line one\nline two\n"
+    },
+    {
+      "id": "N01",
+      "kind": "python",
+      "label": "syntax error",
+      "source": "if True\n  print(1)",
+      "expect_error": true
+    },
+    {
+      "id": "N02",
+      "kind": "python",
+      "label": "unsupported import",
+      "source": "import os\nprint(1)\n",
+      "expect_error": true
+    },
+    {
+      "id": "N03",
+      "kind": "python",
+      "label": "unsupported attribute",
+      "source": "print(\"hi\".upper())\n",
+      "expect_error": true
+    },
+    {
+      "id": "N04",
+      "kind": "python",
+      "label": "unsupported f-string",
+      "source": "x = 2\nprint(f\"value {x}\")\n",
+      "expect_error": true
+    },
+    {
+      "id": "N05",
+      "kind": "python",
+      "label": "unsupported class",
+      "source": "class Example:\n    pass\n",
+      "expect_error": true
+    },
+    {
+      "id": "N06",
+      "kind": "python",
+      "label": "empty program",
+      "source": "  \n",
+      "expect_error": true
+    }
+  ]
+}

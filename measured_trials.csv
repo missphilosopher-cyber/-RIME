@@ -1,0 +1,235 @@
+sample_id,kind,feature,family,policy,repeat,input_characters,input_bytes,output_bytes,recovered,ast_matches,expected_rejection,error,encode_ms,decode_ms,status,trial_ms
+P01,python,output,ascii,full,1,23,23,61,True,True,False,,0.1045,0.15156,exact,0.50237
+P01,python,output,ascii,full,2,23,23,61,True,True,False,,0.05509,0.09249,exact,0.22515
+P01,python,output,ascii,full,3,23,23,61,True,True,False,,0.04569,0.07878,exact,0.18218
+P01,python,output,ascii,names,1,23,23,69,True,True,False,,0.03926,0.07429,exact,0.16324
+P01,python,output,ascii,names,2,23,23,69,True,True,False,,0.03624,0.0718,exact,0.15512
+P01,python,output,ascii,names,3,23,23,69,True,True,False,,0.03623,0.43507,exact,0.51792
+P01,python,output,syllables,full,1,23,23,73,True,True,False,,0.07725,0.10129,exact,0.45313
+P01,python,output,syllables,full,2,23,23,73,True,True,False,,0.05176,0.13212,exact,0.29793
+P01,python,output,syllables,full,3,23,23,73,True,True,False,,0.07738,0.25467,exact,0.47075
+P01,python,output,syllables,names,1,23,23,78,True,True,False,,0.05108,0.08275,exact,0.25156
+P01,python,output,syllables,names,2,23,23,78,True,True,False,,0.09484,0.08896,exact,0.32274
+P01,python,output,syllables,names,3,23,23,78,True,True,False,,0.04171,1.848,exact,2.00223
+P01,python,output,geometry,full,1,23,23,81,True,True,False,,0.11347,0.17674,exact,0.53413
+P01,python,output,geometry,full,2,23,23,81,True,True,False,,0.05733,0.09221,exact,0.22728
+P01,python,output,geometry,full,3,23,23,81,True,True,False,,0.05764,0.08579,exact,0.24917
+P01,python,output,geometry,names,1,23,23,84,True,True,False,,0.05459,0.08461,exact,0.25387
+P01,python,output,geometry,names,2,23,23,84,True,True,False,,0.03997,0.07462,exact,0.16917
+P01,python,output,geometry,names,3,23,23,84,True,True,False,,0.03723,0.20699,exact,0.29449
+P02,python,condition,ascii,full,1,76,76,176,True,True,False,,0.14308,0.29811,exact,0.68828
+P02,python,condition,ascii,full,2,76,76,176,True,True,False,,0.12325,0.24765,exact,0.51491
+P02,python,condition,ascii,full,3,76,76,176,True,True,False,,0.11461,0.21474,exact,0.44083
+P02,python,condition,ascii,names,1,76,76,171,True,True,False,,0.12904,0.25133,exact,0.55463
+P02,python,condition,ascii,names,2,76,76,171,True,True,False,,0.10621,0.20553,exact,0.42059
+P02,python,condition,ascii,names,3,76,76,171,True,True,False,,0.09888,0.20103,exact,0.40277
+P02,python,condition,syllables,full,1,76,76,230,True,True,False,,0.21566,0.25306,exact,0.70514
+P02,python,condition,syllables,full,2,76,76,230,True,True,False,,0.13006,0.30492,exact,0.6092
+P02,python,condition,syllables,full,3,76,76,230,True,True,False,,0.12738,0.22845,exact,0.52692
+P02,python,condition,syllables,names,1,76,76,213,True,True,False,,0.14264,0.21917,exact,0.51834
+P02,python,condition,syllables,names,2,76,76,213,True,True,False,,0.10699,0.21537,exact,0.47984
+P02,python,condition,syllables,names,3,76,76,213,True,True,False,,0.13637,0.21732,exact,0.53902
+P02,python,condition,geometry,full,1,76,76,266,True,True,False,,0.13054,0.25869,exact,0.52961
+P02,python,condition,geometry,full,2,76,76,266,True,True,False,,0.14443,0.47988,exact,0.7464
+P02,python,condition,geometry,full,3,76,76,266,True,True,False,,0.13834,0.28384,exact,0.56506
+P02,python,condition,geometry,names,1,76,76,241,True,True,False,,0.11325,0.21469,exact,0.44678
+P02,python,condition,geometry,names,2,76,76,241,True,True,False,,0.21145,0.29464,exact,0.61347
+P02,python,condition,geometry,names,3,76,76,241,True,True,False,,0.11293,0.2185,exact,0.44811
+P03,python,loop,ascii,full,1,57,57,173,True,True,False,,0.11942,0.2502,exact,0.50242
+P03,python,loop,ascii,full,2,57,57,173,True,True,False,,0.13216,0.24579,exact,0.60988
+P03,python,loop,ascii,full,3,57,57,173,True,True,False,,0.17035,0.35196,exact,0.63606
+P03,python,loop,ascii,names,1,57,57,161,True,True,False,,0.11837,0.2202,exact,0.45926
+P03,python,loop,ascii,names,2,57,57,161,True,True,False,,0.15796,0.3034,exact,0.56823
+P03,python,loop,ascii,names,3,57,57,161,True,True,False,,0.11633,0.25181,exact,0.49287
+P03,python,loop,syllables,full,1,57,57,227,True,True,False,,0.14156,0.31935,exact,0.70804
+P03,python,loop,syllables,full,2,57,57,227,True,True,False,,0.17211,0.2416,exact,0.64443
+P03,python,loop,syllables,full,3,57,57,227,True,True,False,,0.23964,0.24963,exact,0.65692
+P03,python,loop,syllables,names,1,57,57,209,True,True,False,,0.15168,0.27505,exact,0.63612
+P03,python,loop,syllables,names,2,57,57,209,True,True,False,,0.15304,0.27458,exact,0.59757
+P03,python,loop,syllables,names,3,57,57,209,True,True,False,,0.12482,0.22145,exact,0.53179
+P03,python,loop,geometry,full,1,57,57,263,True,True,False,,0.11997,0.2658,exact,0.50388
+P03,python,loop,geometry,full,2,57,57,263,True,True,False,,0.12092,0.29136,exact,0.57574
+P03,python,loop,geometry,full,3,57,57,263,True,True,False,,0.18725,0.24824,exact,0.65814
+P03,python,loop,geometry,names,1,57,57,241,True,True,False,,0.1185,0.22063,exact,0.45346
+P03,python,loop,geometry,names,2,57,57,241,True,True,False,,0.15909,0.24684,exact,0.57603
+P03,python,loop,geometry,names,3,57,57,241,True,True,False,,0.13044,0.33449,exact,0.57905
+P04,python,function,ascii,full,1,50,50,163,True,True,False,,0.11871,0.21496,exact,0.49286
+P04,python,function,ascii,full,2,50,50,163,True,True,False,,0.10016,0.19586,exact,0.39861
+P04,python,function,ascii,full,3,50,50,163,True,True,False,,0.10764,0.19342,exact,0.44816
+P04,python,function,ascii,names,1,50,50,157,True,True,False,,0.09409,0.27501,exact,0.46272
+P04,python,function,ascii,names,2,50,50,157,True,True,False,,0.14123,0.19518,exact,0.44417
+P04,python,function,ascii,names,3,50,50,157,True,True,False,,0.10552,0.19582,exact,0.43357
+P04,python,function,syllables,full,1,50,50,214,True,True,False,,0.13545,0.36365,exact,0.67806
+P04,python,function,syllables,full,2,50,50,214,True,True,False,,0.12577,0.21196,exact,0.54559
+P04,python,function,syllables,full,3,50,50,214,True,True,False,,0.11325,0.20421,exact,0.52045
+P04,python,function,syllables,names,1,50,50,205,True,True,False,,0.1043,0.19681,exact,0.45
+P04,python,function,syllables,names,2,50,50,205,True,True,False,,0.1076,0.31388,exact,0.60894
+P04,python,function,syllables,names,3,50,50,205,True,True,False,,0.11622,0.26394,exact,0.56332
+P04,python,function,geometry,full,1,50,50,248,True,True,False,,0.11285,0.20438,exact,0.43497
+P04,python,function,geometry,full,2,50,50,248,True,True,False,,0.10438,0.19639,exact,0.40301
+P04,python,function,geometry,full,3,50,50,248,True,True,False,,0.21133,0.30202,exact,0.68167
+P04,python,function,geometry,names,1,50,50,237,True,True,False,,0.1124,0.25001,exact,0.4976
+P04,python,function,geometry,names,2,50,50,237,True,True,False,,0.10538,0.19931,exact,0.41132
+P04,python,function,geometry,names,3,50,50,237,True,True,False,,0.09782,0.19248,exact,0.38869
+P05,python,strings and comments,ascii,full,1,84,84,93,True,True,False,,0.0758,0.12521,exact,0.34547
+P05,python,strings and comments,ascii,full,2,84,84,93,True,True,False,,0.0621,0.11284,exact,0.24179
+P05,python,strings and comments,ascii,full,3,84,84,93,True,True,False,,0.05984,0.11191,exact,0.23349
+P05,python,strings and comments,ascii,names,1,84,84,144,True,True,False,,0.05597,0.1489,exact,0.2644
+P05,python,strings and comments,ascii,names,2,84,84,144,True,True,False,,0.05884,0.1101,exact,0.23688
+P05,python,strings and comments,ascii,names,3,84,84,144,True,True,False,,0.05392,0.10911,exact,0.22029
+P05,python,strings and comments,syllables,full,1,84,84,117,True,True,False,,0.067,0.11719,exact,0.30703
+P05,python,strings and comments,syllables,full,2,84,84,117,True,True,False,,0.06368,0.16879,exact,0.34934
+P05,python,strings and comments,syllables,full,3,84,84,117,True,True,False,,0.07391,0.12363,exact,0.3756
+P05,python,strings and comments,syllables,names,1,84,84,162,True,True,False,,0.06214,0.12008,exact,0.29724
+P05,python,strings and comments,syllables,names,2,84,84,162,True,True,False,,0.11223,0.15946,exact,0.38592
+P05,python,strings and comments,syllables,names,3,84,84,162,True,True,False,,0.06276,0.11802,exact,0.29881
+P05,python,strings and comments,geometry,full,1,84,84,133,True,True,False,,0.07978,0.12571,exact,0.29771
+P05,python,strings and comments,geometry,full,2,84,84,133,True,True,False,,0.06348,0.16881,exact,0.30318
+P05,python,strings and comments,geometry,full,3,84,84,133,True,True,False,,0.0667,0.11907,exact,0.26015
+P05,python,strings and comments,geometry,names,1,84,84,174,True,True,False,,0.19938,0.15022,exact,0.41553
+P05,python,strings and comments,geometry,names,2,84,84,174,True,True,False,,0.09314,0.30061,exact,0.79642
+P05,python,strings and comments,geometry,names,3,84,84,174,True,True,False,,0.07439,0.12725,exact,0.2883
+P06,python,while,ascii,full,1,43,43,156,True,True,False,,0.12245,0.2483,exact,0.5599
+P06,python,while,ascii,full,2,43,43,156,True,True,False,,0.1064,0.20308,exact,0.4148
+P06,python,while,ascii,full,3,43,43,156,True,True,False,,0.16715,0.21283,exact,0.47962
+P06,python,while,ascii,names,1,43,43,138,True,True,False,,0.10011,0.438,exact,0.63222
+P06,python,while,ascii,names,2,43,43,138,True,True,False,,0.10568,0.19811,exact,0.46196
+P06,python,while,ascii,names,3,43,43,138,True,True,False,,0.09342,0.19297,exact,0.37917
+P06,python,while,syllables,full,1,43,43,201,True,True,False,,0.28358,0.23699,exact,0.73326
+P06,python,while,syllables,full,2,43,43,201,True,True,False,,0.11726,0.27149,exact,0.55023
+P06,python,while,syllables,full,3,43,43,201,True,True,False,,0.11863,0.27638,exact,0.58221
+P06,python,while,syllables,names,1,43,43,174,True,True,False,,0.11489,0.24674,exact,0.54829
+P06,python,while,syllables,names,2,43,43,174,True,True,False,,0.1022,0.19698,exact,0.4508
+P06,python,while,syllables,names,3,43,43,174,True,True,False,,0.0986,0.25388,exact,0.49806
+P06,python,while,geometry,full,1,43,43,231,True,True,False,,0.1143,0.21083,exact,0.43692
+P06,python,while,geometry,full,2,43,43,231,True,True,False,,0.10782,0.24188,exact,0.45393
+P06,python,while,geometry,full,3,43,43,231,True,True,False,,0.11303,0.21063,exact,0.43937
+P06,python,while,geometry,names,1,43,43,198,True,True,False,,0.09557,0.19602,exact,0.39322
+P06,python,while,geometry,names,2,43,43,198,True,True,False,,0.10159,0.22411,exact,0.4391
+P06,python,while,geometry,names,3,43,43,198,True,True,False,,0.09542,0.19265,exact,0.38751
+P07,python,collections,ascii,full,1,36,36,150,True,True,False,,0.09813,0.22289,exact,0.42476
+P07,python,collections,ascii,full,2,36,36,150,True,True,False,,0.10391,0.1834,exact,0.41397
+P07,python,collections,ascii,full,3,36,36,150,True,True,False,,0.09379,0.20934,exact,0.39391
+P07,python,collections,ascii,names,1,36,36,132,True,True,False,,0.09435,0.1743,exact,0.39656
+P07,python,collections,ascii,names,2,36,36,132,True,True,False,,0.08426,0.16753,exact,0.33676
+P07,python,collections,ascii,names,3,36,36,132,True,True,False,,0.08209,0.18467,exact,0.3523
+P07,python,collections,syllables,full,1,36,36,198,True,True,False,,0.13072,0.19525,exact,0.50501
+P07,python,collections,syllables,full,2,36,36,198,True,True,False,,0.10496,0.20985,exact,0.46427
+P07,python,collections,syllables,full,3,36,36,198,True,True,False,,0.17297,0.20619,exact,0.53038
+P07,python,collections,syllables,names,1,36,36,171,True,True,False,,0.09698,0.18002,exact,0.42386
+P07,python,collections,syllables,names,2,36,36,171,True,True,False,,0.09982,0.18539,exact,0.49485
+P07,python,collections,syllables,names,3,36,36,171,True,True,False,,0.09221,0.17785,exact,0.41172
+P07,python,collections,geometry,full,1,36,36,230,True,True,False,,0.10949,0.19017,exact,0.4495
+P07,python,collections,geometry,full,2,36,36,230,True,True,False,,0.09841,0.18535,exact,0.3808
+P07,python,collections,geometry,full,3,36,36,230,True,True,False,,0.13357,0.21149,exact,0.44285
+P07,python,collections,geometry,names,1,36,36,197,True,True,False,,0.09237,0.17671,exact,0.36377
+P07,python,collections,geometry,names,2,36,36,197,True,True,False,,0.08809,0.19239,exact,0.369
+P07,python,collections,geometry,names,3,36,36,197,True,True,False,,0.11068,0.19645,exact,0.39934
+P08,python,unicode and brackets,ascii,full,1,29,46,85,True,True,False,,0.0719,0.13443,exact,0.31056
+P08,python,unicode and brackets,ascii,full,2,29,46,85,True,True,False,,0.06229,0.12106,exact,0.25257
+P08,python,unicode and brackets,ascii,full,3,29,46,85,True,True,False,,0.05844,0.1969,exact,0.31943
+P08,python,unicode and brackets,ascii,names,1,29,46,96,True,True,False,,0.06023,0.11478,exact,0.2418
+P08,python,unicode and brackets,ascii,names,2,29,46,96,True,True,False,,0.06157,0.1181,exact,0.27897
+P08,python,unicode and brackets,ascii,names,3,29,46,96,True,True,False,,0.05657,0.11406,exact,0.23375
+P08,python,unicode and brackets,syllables,full,1,29,46,106,True,True,False,,0.0736,0.15773,exact,0.37277
+P08,python,unicode and brackets,syllables,full,2,29,46,106,True,True,False,,0.06814,0.1217,exact,0.3155
+P08,python,unicode and brackets,syllables,full,3,29,46,106,True,True,False,,0.06582,0.12379,exact,0.30597
+P08,python,unicode and brackets,syllables,names,1,29,46,114,True,True,False,,0.06886,0.12109,exact,0.32569
+P08,python,unicode and brackets,syllables,names,2,29,46,114,True,True,False,,0.18879,0.15435,exact,0.46081
+P08,python,unicode and brackets,syllables,names,3,29,46,114,True,True,False,,0.07047,0.18009,exact,0.3787
+P08,python,unicode and brackets,geometry,full,1,29,46,120,True,True,False,,0.08286,0.12768,exact,0.34236
+P08,python,unicode and brackets,geometry,full,2,29,46,120,True,True,False,,0.06522,0.11932,exact,0.25668
+P08,python,unicode and brackets,geometry,full,3,29,46,120,True,True,False,,0.06222,0.11828,exact,0.24851
+P08,python,unicode and brackets,geometry,names,1,29,46,126,True,True,False,,0.0765,0.12394,exact,0.28724
+P08,python,unicode and brackets,geometry,names,2,29,46,126,True,True,False,,0.05998,0.11722,exact,0.24394
+P08,python,unicode and brackets,geometry,names,3,29,46,126,True,True,False,,0.05802,0.11489,exact,0.23941
+P09,python,spacing and CRLF,ascii,full,1,37,37,97,True,True,False,,0.06441,0.11677,exact,0.25914
+P09,python,spacing and CRLF,ascii,full,2,37,37,97,True,True,False,,0.06414,0.11168,exact,0.27479
+P09,python,spacing and CRLF,ascii,full,3,37,37,97,True,True,False,,0.05745,0.10818,exact,0.2265
+P09,python,spacing and CRLF,ascii,names,1,37,37,93,True,True,False,,0.05117,0.1037,exact,0.21155
+P09,python,spacing and CRLF,ascii,names,2,37,37,93,True,True,False,,0.04999,0.10029,exact,0.2058
+P09,python,spacing and CRLF,ascii,names,3,37,37,93,True,True,False,,0.07193,0.10786,exact,0.23582
+P09,python,spacing and CRLF,syllables,full,1,37,37,121,True,True,False,,0.06735,0.188,exact,0.37696
+P09,python,spacing and CRLF,syllables,full,2,37,37,121,True,True,False,,0.07885,0.12619,exact,0.34986
+P09,python,spacing and CRLF,syllables,full,3,37,37,121,True,True,False,,0.10824,0.15026,exact,0.38052
+P09,python,spacing and CRLF,syllables,names,1,37,37,111,True,True,False,,0.05967,0.11053,exact,0.29246
+P09,python,spacing and CRLF,syllables,names,2,37,37,111,True,True,False,,0.05612,0.10998,exact,0.27809
+P09,python,spacing and CRLF,syllables,names,3,37,37,111,True,True,False,,0.05589,0.13088,exact,0.29795
+P09,python,spacing and CRLF,geometry,full,1,37,37,137,True,True,False,,0.06552,0.11778,exact,0.25414
+P09,python,spacing and CRLF,geometry,full,2,37,37,137,True,True,False,,0.06168,0.11396,exact,0.24354
+P09,python,spacing and CRLF,geometry,full,3,37,37,137,True,True,False,,0.0602,0.11109,exact,0.2374
+P09,python,spacing and CRLF,geometry,names,1,37,37,123,True,True,False,,0.05338,0.12569,exact,0.24064
+P09,python,spacing and CRLF,geometry,names,2,37,37,123,True,True,False,,0.05894,0.10838,exact,0.26241
+P09,python,spacing and CRLF,geometry,names,3,37,37,123,True,True,False,,0.05274,0.10583,exact,0.21898
+P10,python,multiline literal,ascii,full,1,43,43,85,True,True,False,,0.06185,0.11178,exact,0.24725
+P10,python,multiline literal,ascii,full,2,43,43,85,True,True,False,,0.23061,0.14318,exact,0.43793
+P10,python,multiline literal,ascii,full,3,43,43,85,True,True,False,,0.06344,0.11872,exact,0.25551
+P10,python,multiline literal,ascii,names,1,43,43,101,True,True,False,,0.05616,0.11297,exact,0.23192
+P10,python,multiline literal,ascii,names,2,43,43,101,True,True,False,,0.05427,0.10697,exact,0.22042
+P10,python,multiline literal,ascii,names,3,43,43,101,True,True,False,,0.17268,0.16065,exact,0.42961
+P10,python,multiline literal,syllables,full,1,43,43,106,True,True,False,,0.07219,0.12419,exact,0.34494
+P10,python,multiline literal,syllables,full,2,43,43,106,True,True,False,,0.06404,0.15703,exact,0.34137
+P10,python,multiline literal,syllables,full,3,43,43,106,True,True,False,,0.09058,0.12808,exact,0.44138
+P10,python,multiline literal,syllables,names,1,43,43,119,True,True,False,,0.06611,0.11848,exact,0.32673
+P10,python,multiline literal,syllables,names,2,43,43,119,True,True,False,,0.12954,0.12442,exact,0.37105
+P10,python,multiline literal,syllables,names,3,43,43,119,True,True,False,,0.08273,0.1251,exact,0.39472
+P10,python,multiline literal,geometry,full,1,43,43,120,True,True,False,,0.08815,0.15615,exact,0.39657
+P10,python,multiline literal,geometry,full,2,43,43,120,True,True,False,,0.06733,0.11813,exact,0.26866
+P10,python,multiline literal,geometry,full,3,43,43,120,True,True,False,,0.16672,0.32041,exact,0.55646
+P10,python,multiline literal,geometry,names,1,43,43,131,True,True,False,,0.10013,0.13224,exact,0.31962
+P10,python,multiline literal,geometry,names,2,43,43,131,True,True,False,,0.06398,0.11632,exact,0.28096
+P10,python,multiline literal,geometry,names,3,43,43,131,True,True,False,,0.05786,0.11055,exact,0.23642
+N01,python,syntax error,ascii,full,1,18,18,,,,True,Python syntax error on line 1: expected ':',,,expected_rejection,0.08536
+N01,python,syntax error,ascii,full,2,18,18,,,,True,Python syntax error on line 1: expected ':',,,expected_rejection,0.0128
+N01,python,syntax error,ascii,full,3,18,18,,,,True,Python syntax error on line 1: expected ':',,,expected_rejection,0.00877
+N01,python,syntax error,syllables,full,1,18,18,,,,True,Python syntax error on line 1: expected ':',,,expected_rejection,0.00745
+N01,python,syntax error,syllables,full,2,18,18,,,,True,Python syntax error on line 1: expected ':',,,expected_rejection,0.00728
+N01,python,syntax error,syllables,full,3,18,18,,,,True,Python syntax error on line 1: expected ':',,,expected_rejection,0.00702
+N01,python,syntax error,geometry,full,1,18,18,,,,True,Python syntax error on line 1: expected ':',,,expected_rejection,0.00687
+N01,python,syntax error,geometry,full,2,18,18,,,,True,Python syntax error on line 1: expected ':',,,expected_rejection,0.0067
+N01,python,syntax error,geometry,full,3,18,18,,,,True,Python syntax error on line 1: expected ':',,,expected_rejection,0.0066
+N02,python,unsupported import,ascii,full,1,19,19,,,,True,"Import is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.03427
+N02,python,unsupported import,ascii,full,2,19,19,,,,True,"Import is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.04107
+N02,python,unsupported import,ascii,full,3,19,19,,,,True,"Import is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01849
+N02,python,unsupported import,syllables,full,1,19,19,,,,True,"Import is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01792
+N02,python,unsupported import,syllables,full,2,19,19,,,,True,"Import is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01861
+N02,python,unsupported import,syllables,full,3,19,19,,,,True,"Import is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.03574
+N02,python,unsupported import,geometry,full,1,19,19,,,,True,"Import is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01843
+N02,python,unsupported import,geometry,full,2,19,19,,,,True,"Import is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01744
+N02,python,unsupported import,geometry,full,3,19,19,,,,True,"Import is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01769
+N03,python,unsupported attribute,ascii,full,1,20,20,,,,True,"Attribute is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.02645
+N03,python,unsupported attribute,ascii,full,2,20,20,,,,True,"Attribute is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.0205
+N03,python,unsupported attribute,ascii,full,3,20,20,,,,True,"Attribute is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.03499
+N03,python,unsupported attribute,syllables,full,1,20,20,,,,True,"Attribute is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01964
+N03,python,unsupported attribute,syllables,full,2,20,20,,,,True,"Attribute is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01892
+N03,python,unsupported attribute,syllables,full,3,20,20,,,,True,"Attribute is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01898
+N03,python,unsupported attribute,geometry,full,1,20,20,,,,True,"Attribute is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01879
+N03,python,unsupported attribute,geometry,full,2,20,20,,,,True,"Attribute is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01916
+N03,python,unsupported attribute,geometry,full,3,20,20,,,,True,"Attribute is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01998
+N04,python,unsupported f-string,ascii,full,1,26,26,,,,True,"JoinedStr is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.03575
+N04,python,unsupported f-string,ascii,full,2,26,26,,,,True,"JoinedStr is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.02812
+N04,python,unsupported f-string,ascii,full,3,26,26,,,,True,"JoinedStr is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.02671
+N04,python,unsupported f-string,syllables,full,1,26,26,,,,True,"JoinedStr is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.04218
+N04,python,unsupported f-string,syllables,full,2,26,26,,,,True,"JoinedStr is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.02742
+N04,python,unsupported f-string,syllables,full,3,26,26,,,,True,"JoinedStr is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.02608
+N04,python,unsupported f-string,geometry,full,1,26,26,,,,True,"JoinedStr is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.0261
+N04,python,unsupported f-string,geometry,full,2,26,26,,,,True,"JoinedStr is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.02592
+N04,python,unsupported f-string,geometry,full,3,26,26,,,,True,"JoinedStr is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.02658
+N05,python,unsupported class,ascii,full,1,24,24,,,,True,"ClassDef is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01828
+N05,python,unsupported class,ascii,full,2,24,24,,,,True,"ClassDef is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01204
+N05,python,unsupported class,ascii,full,3,24,24,,,,True,"ClassDef is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01123
+N05,python,unsupported class,syllables,full,1,24,24,,,,True,"ClassDef is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01108
+N05,python,unsupported class,syllables,full,2,24,24,,,,True,"ClassDef is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.02412
+N05,python,unsupported class,syllables,full,3,24,24,,,,True,"ClassDef is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01075
+N05,python,unsupported class,geometry,full,1,24,24,,,,True,"ClassDef is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01059
+N05,python,unsupported class,geometry,full,2,24,24,,,,True,"ClassDef is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01057
+N05,python,unsupported class,geometry,full,3,24,24,,,,True,"ClassDef is not in the supported Python subset. Use assignments, arithmetic, conditions, loops, basic functions and calls. Imports, attributes, classes and f-strings are not supported yet.",,,expected_rejection,0.01075
+N06,python,empty program,ascii,full,1,3,3,,,,True,Enter a Python program before creating a code language.,,,expected_rejection,0.00183
+N06,python,empty program,ascii,full,2,3,3,,,,True,Enter a Python program before creating a code language.,,,expected_rejection,0.00169
+N06,python,empty program,ascii,full,3,3,3,,,,True,Enter a Python program before creating a code language.,,,expected_rejection,0.00151
+N06,python,empty program,syllables,full,1,3,3,,,,True,Enter a Python program before creating a code language.,,,expected_rejection,0.00145
+N06,python,empty program,syllables,full,2,3,3,,,,True,Enter a Python program before creating a code language.,,,expected_rejection,0.00144
+N06,python,empty program,syllables,full,3,3,3,,,,True,Enter a Python program before creating a code language.,,,expected_rejection,0.01434
+N06,python,empty program,geometry,full,1,3,3,,,,True,Enter a Python program before creating a code language.,,,expected_rejection,0.00144
+N06,python,empty program,geometry,full,2,3,3,,,,True,Enter a Python program before creating a code language.,,,expected_rejection,0.00152
+N06,python,empty program,geometry,full,3,3,3,,,,True,Enter a Python program before creating a code language.,,,expected_rejection,0.00146
