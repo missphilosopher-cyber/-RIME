@@ -1,0 +1,1 @@
+{"name":"prime-python-prototype","private":true,"scripts":{"dev":".venv/bin/python app.py"}}
